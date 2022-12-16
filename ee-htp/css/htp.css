@@ -1,0 +1,143 @@
+body {
+	background-color: #000000;
+	background-image: url("../images/test2.png");
+	background-repeat: repeat;
+	background-position: center;
+	
+	
+}
+#sanctuary {
+	max-width: 40%;
+	max-height: 40%;
+	text-align: center;
+	display: block;
+}
+#banner {
+	width: 100%;
+	height: 200px;
+	color: #000000;
+}
+
+#pvp {
+	width: 70%;
+	height: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	color: #f20c49;
+	text-align: center;
+	font-size: 62px;
+}
+
+h2 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 35px;
+
+}
+
+h3 {
+	color: #ffffffb2;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+h4 {
+	color:#a02828;
+	text-align: center;
+	font-size: 45px;
+}
+
+navt {
+	width: 90%;
+	height: 100px;
+	color: #ffffff;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 10px 20px 10px 10px;
+}
+
+navt ul li{
+	color: white;
+	font-size: 24px;
+	list-style-type: none;
+	float: right;
+}
+
+navt ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	margin: 10px;
+	
+}
+
+navt ul li a:hover{
+	color: #f20c49;
+}
+
+navf ul li a:hover{
+	color: #f20c49;
+}
+
+navf ul li{
+	color: white;
+	font-size: 24px;
+	list-style-type: none;
+	float: left;
+}
+
+navf ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	margin: 10px;
+}
+
+navf ul li a:hover{
+	color: #f20c49;
+}
+
+ama {
+	color: #f20c49;
+	font-size: 24px;
+	text-align: left;
+}
+
+members {
+	color: #125dbe;
+	font-size: 26px;
+	list-style-type: none;
+	float: center;
+	font-style: italic;
+
+}
+
+blockquote {
+	display: flex;
+	align-items: center;
+	border-left: 10px solid #cccccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+	align-self: center;
+
+}
+  
+blockquote:before {
+	color: #cccccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+	align-self: center;
+}
+
+blockquote p {
+	display: inline;
+}
